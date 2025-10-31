@@ -62,7 +62,20 @@ addi x8, x0, 8
 addi x9, x0, 2
 addi x10, x0, 8
 ```
-
+### ⚙️ Generated RISC-V Machine Code (After Scheduling)
+```
+addi x1 x0 5  # b = 5
+addi x2 x0 6  # c = 6
+addi x28 x0 2  # load 2
+addi x5 x0 2  # e = 2
+addi x6 x0 2  # f = 2
+add x3 x1 x2  # a = b + c
+addi x7 x0 7  # g = 7
+addi x8 x0 8  # h = 8
+addi x9 x0 2  # i = 2
+mul x4 x3 x28  # d = a * 2
+addi x10 x0 8  # j = 8
+```
 ---
 
 ### 🧩 Register Allocation
