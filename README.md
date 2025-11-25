@@ -144,7 +144,6 @@ addi x10 x0 8  # j = 8
 - Educational tool for **computer architecture and compiler design**  
 - Demonstrates **static instruction scheduling** and **hazard resolution**  
 - Helps visualize **instruction-level parallelism (ILP)**  
-
-
+[final report is given here](riscVcompilertool.pdf)
 ### 👤 Author
 **Sowmith**  
